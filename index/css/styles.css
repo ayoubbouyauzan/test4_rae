@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/Montage Image_Sbarro.jpg");
+  min-height: 75%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+
+.w3-col {
+	text-align: center;
+}
+
+.w3-container {
+	text-align: center;
+}
+
+.socialmedia {
+	text-align: center;
+}
+
+/* footer red  */
+
+.footer {
+	background-color: red;
+}
+
+/* NAVIGATION is always on screen */
+span {
+	position: fixed;
+}
+
+
+/* changing size titlt */
+
+@media only screen and (max-width: 600px){
+.w3-text-white {
+      font-size:50px !important;
+      line-height:125% !important;
+}
+}
